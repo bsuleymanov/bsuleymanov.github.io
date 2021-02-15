@@ -16,7 +16,7 @@ X = np.concatenate([np.ones((N, 1)), X], axis=1)
 weights_true = np.array([[2, 3, 4, 5]])
 y = X @ weights_true.T + np.random.randn(N, 1)
 ```
-To find weights of linear regression we can use normal equations $\cap{\mathbf{\theta}} = (\mathbf{X^T} \mathbf{X})^{-1} \mathbf{X}^T\mathbf{y}$:
+To find weights of linear regression we can use normal equations $\hat{\mathbf{\theta}} = (\mathbf{X}^\intercal \mathbf{X})^{-1} \mathbf{X}^\intercal\mathbf{y}$:
 ```python
 weights_estimated = np.linalg.inv(X.T @ X) @ X.T @ y
 ```
