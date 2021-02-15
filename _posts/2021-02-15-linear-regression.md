@@ -24,4 +24,4 @@ weights_estimated = np.linalg.inv(X.T @ X) @ X.T @ y
 
 Let's look at predictions: $\mathbf{\hat{y}} = \mathbf{X} \pmb{\hat{\theta}}$.
 
-![Predictions](https://github.com/bsuleymanov/bsuleymanov.github.io/blob/master/assets/img/Figure_1.png)
+![Predictions](https://raw.githubusercontent.com/bsuleymanov/bsuleymanov.github.io/master/assets/img/Figure_1.png)
