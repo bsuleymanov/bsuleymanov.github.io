@@ -21,3 +21,7 @@ To find weights of linear regression we can use normal equations $\pmb{\hat{\the
 ```python
 weights_estimated = np.linalg.inv(X.T @ X) @ X.T @ y
 ```
+
+Let's look at predictions: $\hat{y} = \mathbf{X} \pmb{\hat{\theta}}$.
+
+![Predictions](https://github.com/bsuleymanov/bsuleymanov.github.io/blob/master/assets/img/Figure_1.png)
